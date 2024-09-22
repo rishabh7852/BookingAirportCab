@@ -1,0 +1,503 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container {
+    width: 100%;
+    padding: 50px 0;
+    background-color: #EAF4F2;
+    display: flex;
+    justify-content: center;
+}
+
+/* <!-- screen one css start  --> */
+.device {
+    width: 375px;
+    height: 667px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, .2);
+    border-radius: 30px;
+    background-color: white;
+}
+
+.device2 {
+    width: 375px;
+    height: 667px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, .2);
+    border-radius: 30px;
+    background-color: white;
+    margin-left: 30px;
+}
+
+.header {
+    display: flex;
+    padding: 40px 20px 20px;
+    align-items: center;
+}
+
+.left-side h3 {
+    font-size: 20px;
+    color: #58b495;
+
+}
+
+iframe {
+    border-radius: 0px 0px 30px 30px;
+}
+
+.bar-icon {
+    margin-left: auto;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+.border-box {
+    height: 5px;
+    width: 100%;
+    background-color: #58b495;
+}
+
+.search-box {
+    height: 150px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    position: relative;
+}
+
+.searchbox {
+    background-color: #F3F3F3;
+    height: 40px;
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 3px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.input-box1 {
+    height: 40px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    margin-left: 30px;
+    font-size: 14px;
+    color: black;
+    outline: none;
+}
+
+::placeholder {
+    font-size: 14px;
+    color: #777;
+    font-weight: 200;
+}
+
+.fa-solid {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 12px;
+}
+
+#secornd-icon {
+    margin-left: 90%;
+}
+
+.searchbox2 {
+    background-color: #F3F3F3;
+    height: 20px;
+    width: 85%;
+    margin-top: 60px;
+    margin-left: 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.second-input {
+    height: 40px;
+    width: 70%;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    margin-left: 53px;
+    font-size: 14px;
+    color: black;
+    outline: none;
+    margin-top: -10px;
+}
+
+#dot-icon {
+    margin-top: -1px;
+    margin-right: 30px;
+
+
+}
+.fa-location-arrow{
+    margin-left: 15px;
+}
+
+
+.change-inputvalue {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+#change-input {
+    margin-top: 10px;
+    margin-left: 9px;
+}
+
+.btn1 {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 10px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+    background-color: #58b495;
+    color: white;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    color: black;
+    background-color: transparent;
+    border: 2px solid #58b495;
+}
+
+.map-box {
+    height: 350px;
+    width: 100%;
+    border-radius: 30px;
+    background-color: antiquewhite;
+    margin-top: 20px;
+}
+/* <!-- screen one css end  --> */
+
+/* <!-- screen one css start  --> */
+
+
+.divece2-input-box {
+    background-color: #ffffff;
+    /* background-color: #F2F4F6; */
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divece2-input-box ul li {
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 5px;
+    background-color: #58b495;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.divece2-input-box ul li:hover {
+    color: black;
+    background-color: transparent;
+    border: 2px solid #58b495;
+
+}
+
+.link-btn2 {
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.link-btn2:hover {
+    color: #000000;
+}
+
+.divece2-input-box2 {
+    /* background-color: rgb(0, 0, 0); */
+    height: 300px;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box {
+    margin-top: 20px;
+    position: absolute;
+    /* background-color: aqua; */
+    height: 200px;
+    width: 100%;
+}
+
+.second-box-input {
+    margin-left: 50px;
+    margin-top: 2px;
+    height: 35px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: transparent;
+    /* background-color: red; */
+    border: none;
+    color: rgb(112, 110, 110);
+    outline: none;
+    font-size: 14px;
+
+}
+
+.input-div {
+    background-color: #F3F3F3;
+    margin-top: 3px;
+    border-radius: 10px;
+    height: 40px;
+    width: 90%;
+    margin-left: 10px;
+}
+
+.input-div2 {
+    background-color: #F3F3F3;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 40px;
+    width: 90%;
+    margin-left: 10px;
+}
+
+.fa-location-crosshairs {
+    font-size: 18px;
+    margin-top: 10px;
+    width: 3%;
+    height: 10px;
+    position: absolute;
+}
+
+.fa-location-dot {
+    font-size: 18px;
+    margin-top: 10px;
+    width: 3%;
+    height: 10px;
+    position: absolute;
+}
+
+.fa-calendar-days {
+    font-size: 18px;
+    margin-top: 10px;
+    width: 3%;
+    height: 10px;
+    position: absolute;
+}
+
+
+.label-date {
+    font-size: 14px;
+    margin-top: 6px;
+    position: absolute;
+    margin-left: 20px;
+    color: #58b495;
+}
+
+.input-div3 {
+    background-color: #F3F3F3;
+    margin-top: 29px;
+    border-radius: 10px;
+    height: 40px;
+    width: 90%;
+    margin-left: 10px;
+
+}
+
+.dropdown-menue {
+    height: 300px;
+    width: 100%;
+    /* background-color: rgb(0, 0, 0); */
+    margin-top: 10px;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+
+}
+
+.paragraf-heading {
+    font-size: 14px;
+    color: #58b495;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#Fare-select {
+    margin-left: 38px;
+    height: 40px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    color: rgb(105, 103, 103);
+    outline: none;
+
+
+}
+
+.select-box {
+    background-color: #F3F3F3;
+    height: 40px;
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 3px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.term-box {
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    margin-top: 50px;
+    color: #58b495;
+}
+
+.term-input {
+    margin-left: 20px;
+
+}
+
+.btn-box {
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    margin-top: 90px;
+}
+
+.btn2-box {
+    width: 80%;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #58b495;
+    color: white;
+    border: none;
+}
+
+.btn2-box:hover {
+    border: 3px solid #58b495;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.box-imagesecation {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 160px;
+    position: relative;
+}
+
+.box-imag-div1 {
+    height: 90px;
+    width: 25%;
+    background-image: linear-gradient(180deg, rgba(218, 210, 210, 0.926), rgba(90, 218, 163, 0.926));
+    margin-left: 30px;
+    margin-top: 4px;
+    border-radius: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.ineer-box {
+    height: 40px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-left: 23px;
+}
+
+.heading-imagebox {
+    font-size: 14px;
+    margin-left: 23px;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.fa-car {
+    margin-top: 10px;
+}
+
+.box-imag-div2 {
+    height: 90px;
+    width: 25%;
+    background-image: linear-gradient(180deg, rgba(218, 210, 210, 0.926), rgba(90, 218, 163, 0.926));
+    margin-left: 140px;
+    margin-top: 4px;
+    border-radius: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#icon-box {
+    margin-top: 10px;
+}
+
+.heading-imagebox2 {
+    font-size: 14px;
+    margin-left: 19px;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.box-imag-div3 {
+    height: 90px;
+    width: 25%;
+    background-image: linear-gradient(180deg, rgba(218, 210, 210, 0.926), rgba(90, 218, 163, 0.926));
+    margin-left: 250px;
+    margin-top: 4px;
+    border-radius: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.heading-imagebox3 {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #000000;
+}
+
+#box-icon {
+    margin-top: 10px;
+}
+/* <!-- screen one css end  --> */
+
+
+
+
+

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Airport Cab</title>
+    <!-- Main.css link -->
+    <link rel="stylesheet" href="./main.css">
+    <!-- bootstrap cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- fontawome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+</head>
+
+<body>
+    <!-- screen one -->
+    <div class="container">
+        <div class="device">
+            <!-- header section start -->
+            <div class="header">
+                <div class="left-side">
+                    <h3>BookAirport.Cab</h3>
+                </div>
+
+                <div class="bar-icon">
+
+                    <i class="fa-solid fa-bars" style="color: #50a594;"></i>
+                </div>
+            </div>
+            <div class="border-box"></div>
+            <!-- header section end -->
+
+            <!-- inputbox section start -->
+            <div class="search-box">
+                <div class="searchbox">
+                    <i class="fa-solid fa-location-arrow" style="color: #62d0a6;"></i>
+                    <input type="search" placeholder="Enter pickup Location" class="input-box1">
+                </div>
+
+                <div class="searchbox2">
+                    <i class="fa-solid fa-location-dot" style="color: #62d0a6;" id="dot-icon"></i>
+                    <input type="search" placeholder="Enter destination" class="second-input">
+                </div>
+
+                <div class="change-inputvalue">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                        fill="#62d0a6" id="change-input">
+                        <path
+                            d="M320-440v-287L217-624l-57-56 200-200 200 200-57 56-103-103v287h-80ZM600-80 400-280l57-56 103 103v-287h80v287l103-103 57 56L600-80Z" />
+                    </svg>
+                </div>
+
+                <button class="btn1">Booking Now</button>
+
+            </div>
+            <!-- inputbox section end -->
+
+            <!-- googlemap section start -->
+            <div class="map-box">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224356.8592342968!2d77.23701267138127!3d28.522404035412166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5a43173357b%3A0x37ffce30c87cc03f!2sNoida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1726831232855!5m2!1sen!2sin"
+                    width="100%" height="380px" border-radius="50px" style="border:0;" allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+
+            </div>
+        </div>
+        <!-- googlemap section end -->
+
+        <!-- device2 section start -->
+        <div class="device2">
+            <div class="device">
+                <!-- device2 header section start -->
+                <div class="header">
+                    <div class="left-side">
+                        <h3>BookAirport.Cab</h3>
+                    </div>
+
+                    <div class="bar-icon" id="icon">
+                        <i class="fa-solid fa-bars" style="color: #50a594;"></i>
+                    </div>
+                </div>
+
+                <div class="border-box"></div>
+
+                <!-- device2 header section end -->
+
+                <!-- device2 inputbox section start -->
+
+                <div class="divece2-input-box">
+                    <ul>
+                        <li><a class="link-btn2" href="#">Airport Ride</a></li>
+                        <li><a class="link-btn2" href="#">City rental</a></li>
+                        <li><a class="link-btn2" href="#">Outstation</a></li>
+                        <li><a class="link-btn2" href="#">Package</a></li>
+                    </ul>
+                </div>
+
+                <div class="divece2-input-box2">
+                    <form action="#" class="form-box">
+                        <div class="input-div">
+                            <i class="fa-solid fa-location-dot" style="color: #50a594;"></i>
+
+                            <input type="text" name="" autofocus="" list="input-address" class="second-box-input"
+                                placeholder="Enter your Location" />
+
+                            <datalist id="input-address">
+                                <option value="Noida Sector 44">Noida Sector 44</option>
+                                <option value="Ram Nagar Delhi">Ram Nagar Delhi</option>
+                                <option value="Gurugram Sector 144 Tower3">Gurugram Sector 144 Tower3</option>
+                                <option value="Nsp Metro station">Nsp Metro station</option>
+                            </datalist>
+
+                        </div>
+
+                        <div class="input-div2">
+                            <i class="fa-solid fa-location-crosshairs" style="color: #50a594;"></i>
+                            <input type="text" name="" autofocus="" list="input-address" class="second-box-input"
+                                placeholder="Enter your drop Location" />
+
+                            <datalist id="input-address">
+                                <option value="Noida Sector 44">Noida Sector 52</option>
+                                <option value="Ram Nagar Delhi">Krishna Nagar Shadhara Delhi</option>
+                                <option value="Gurugram Sector 144 Tower3">Gurugram Sector 144 Tower3</option>
+                                <option value="Nsp Metro station">Rohini Metro station</option>
+                            </datalist>
+
+                        </div>
+
+                        <label for="" class="label-date">Schedule Your Ride</label>
+                        <div class="input-div3">
+                            <i class="fa-solid fa-calendar-days" style="color: #50a594;"></i>
+                            <input type="datetime-local" name="" class="second-box-input" placeholder="Select Date" />
+                        </div>
+
+
+                        <div class="dropdown-menue">
+                            <p class="paragraf-heading">Fare(select your bucket)</p>
+                            <div class="select-box">
+                                <select name="Fare-select" id="Fare-select">
+                                    <option value="">Fare select your bucket</option>
+                                    <option value="dog">0-10 KM - 499 Rs</option>
+                                    <option value="cat">11-15 KM - 599 Rs</option>
+                                    <option value="hamster">15-20 KM - 699 Rs</option>
+                                    <option value="parrot">21-25 KM - 799 Rs</option>
+                                    <option value="spider">26-30 KM - 899 Rs</option>
+                                    <option value="goldfish">31-35 KM- 999 Rs</option>
+                                    <option value="goldfish">35- 40 KM- 1099 Rs</option>
+                                    <option value="goldfish">41- 45 KM - 1199 Rs</option>
+                                </select>
+                            </div>
+
+
+                            <div class="term-box">
+                                <input type="checkbox" name="chaekbox" class="term-input">
+                                <label for="agree to these Terms and Condation">agree to these Terms and
+                                    Condation</label>
+                            </div>
+
+                            <div class="btn-box">
+                                <a href="#" class="link-btn"><button class="btn2-box">Pay and Update
+                                        Location</button></a>
+                            </div>
+                            <div class="box-imagesecation">
+
+                                <div class="box-imag-div1">
+                                    <div class="ineer-box">
+                                        <i class="fa-solid fa-car" style="color: #000000;"></i>
+                                    </div>
+                                    <h4 class="heading-imagebox">Mini car</h4>
+                                </div>
+
+                                <div class="box-imag-div2">
+                                    <div class="ineer-box">
+                                        <i class="fa-duotone fa-solid fa-car-side"
+                                            style="--fa-primary-color: #000000; --fa-secondary-color: #000000;"
+                                            id="icon-box"></i>
+                                    </div>
+                                    <h4 class="heading-imagebox2">Micro car</h4>
+                                </div>
+
+                                <div class="box-imag-div3">
+                                    <div class="ineer-box">
+                                        <i class="fa-solid fa-car-rear" style="color: #000000;" id="box-icon"></i>
+
+                                    </div>
+                                    <h4 class="heading-imagebox3">luxury car</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                <!-- device2 inputbox section end -->
+
+
+                </div>
+            </div>
+        </div>
+
+
+       <!-- js cdn link -->
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
